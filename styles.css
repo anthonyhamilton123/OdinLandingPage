@@ -19,7 +19,7 @@ a{
 }
 
 p{
-    margin: 10px 0px;
+    margin: 10px 0pxgit;
 }
 
 button{
@@ -57,6 +57,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 10px 0 0;
 }
 
 .firstlink{
