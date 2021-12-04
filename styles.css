@@ -18,6 +18,10 @@ a{
     padding: 0 10px;
 }
 
+p{
+    margin: 10px 0px;
+}
+
 button{
     font-size: 18px;
     color: #E5E7EB;
@@ -38,6 +42,8 @@ h1{
 h2{
     font-size: 24px;
     color: #F9FAF8;
+    padding: 0px;
+    margin: 0px;
 }
 
 .header{
@@ -127,7 +133,7 @@ h2{
 
 .quotetext{
     font-size: 36px;
-    font-weight: light; 
+    font-weight: 100; 
     font-style: italic;
     color: #1F2937;
     padding: 0;
@@ -137,5 +143,39 @@ h2{
 .quoteend{
     align-self: flex-end;
     margin-right: 100px;
+}
+
+.calltoactionbox{
+    padding: 100px 200px;
+}
+
+.bluebox{
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 10px;
+    padding: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blueboxbut{
+    border: 2px solid #eee;;
+    border-color: white;
+}
+
+.signuptext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer{
+    background-color: #1F2937;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
